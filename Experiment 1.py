@@ -3,7 +3,7 @@ class Book:
         self.book_id = book_id
         self.title = title
         self.author = author
-        self.is_borrowed = True #Book is available by default
+        self.is_borrowed = True                        #Book is available by default
 
     def display(self):
         status = "Borrowed" if self.is_borrowed else "Available"
@@ -14,7 +14,7 @@ class Patron:
     def __init__(self, patron_id, name):
         self.patron_id = patron_id
         self.name = name
-        self.borrowed_books = [] # List to store Borrowed Book
+        self.borrowed_books = []                      # List to store Borrowed Book
 
     def display(self):
         print(f"Patron ID: {self.patron_id}, Name: {self.name}")
@@ -29,6 +29,7 @@ class Library:
         self.books = {}
         self.patrons = {}
 
+    
     # Add a new book
     def add_book(self, book):
         self.books[book.book_id] = book
