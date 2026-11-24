@@ -1,0 +1,3 @@
+For admission queries, contact admissions@example.edu or help.desk@college.ac.in.
+You can also write to student_support@my-college.org.
+The address invalid-email@ and another@invalid should not be extracted.

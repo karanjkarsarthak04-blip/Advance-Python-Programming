@@ -1,0 +1,4 @@
+Python is a versatile programming language.
+It supports object-oriented programming.
+Dynamic programming helps solve optimization problems.
+Regular expressions are useful for text processing.
